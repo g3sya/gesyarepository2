@@ -12,7 +12,7 @@ class Book{
 void displayDetails(){
     cout << "Title: " << title << endl;
     cout << "Author: " << author << endl;
-    cout << "Price: " << price << endl;
+    cout << "Price: $" << price << endl;
 }
 };
 int main() {
@@ -23,12 +23,11 @@ int main() {
 
     book1.title = "Pride and Prejudice";
     book1.author = "Jane Austen";
-    book1.price = 385.000;
+    book1.price = 24.47;
 
-    // Assign values to book2's attributes
     book2.title = "Jakarta Sebelum Pagi";
     book2.author = "Ziggy Zezsyazeoviennazabrizkie";
-    book2.price = 62.000;
+    book2.price = 3.94;
 
 
     cout << "Book 1 Details:" << endl;
